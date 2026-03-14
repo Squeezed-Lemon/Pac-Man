@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_collision",
+  "%Name":"obj_teleport_right",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_collision",
+  "name":"obj_teleport_right",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,11 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_collision",
-    "path":"sprites/spr_collision/spr_collision.yy",
+    "name":"spr_teleport",
+    "path":"sprites/spr_teleport/spr_teleport.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
